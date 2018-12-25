@@ -1,5 +1,5 @@
 # doubantest
 豆瓣网模拟登陆影评爬取词云生成 
-
+使用wordcloud词云库 jieba分词 requests登录 bs4库等模块  后又加入tesseractOcr识别爬取的验证码图片 免去手动输入这一过程
 数据库sql文件放在test文件夹下  运行sql文件后数据库中会出现表结构之后运行代码
 在test.py中输入自己的邮箱和账号密码运行代码即可爬取
